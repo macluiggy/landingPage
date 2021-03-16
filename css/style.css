@@ -135,6 +135,9 @@ ul p {
 /*End contect secction */
 
 /*contact section */
+h3 {
+    text-align: center;
+}
 footer {
     position: absolute;
     width: 99.99999%;
@@ -146,4 +149,21 @@ footer {
 footer img {
     width: 60px;
     height: 60px;
+}
+footer a {
+    color: white;
+}
+
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#facebook {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#whatsapp {
+    padding: 10px;
 }
