@@ -1,0 +1,149 @@
+body {
+padding: 0;
+margin: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(245, 222, 179);
+}
+
+/* Header section */
+header {
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(115deg, rgba(245, 222, 179, 0.1), rgba(5, 6, 7, 0.8)), url('/img/header-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 20px;
+    position: fixed;
+}
+#header-img {
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+}
+header div {
+    float: left;
+    width: 110px;
+    overflow: hidden;
+    height: 90px;
+    border-radius: 90px;
+}
+header ul {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+header li {
+    padding: 10px;
+    list-style-type: none;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+
+/* Content section */
+#about {
+    border: solid black;
+    background-color: black;
+    color: white;
+    margin: 10px auto;
+    padding: 30px 150px;
+    font-size: 30px;
+}
+div#content  {
+    padding-top: 130px;
+}
+div#video-container {
+    width: 0 auto;
+    text-align: center;
+}
+iframe {
+    border: solid;
+}
+form {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+form label {
+    font-size: 150%;
+}
+form input {
+    height: 30px;
+    font-size: 100%;
+}
+form #submit {
+    width: 30%;
+    margin: 10px auto;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    font-weight: bold;
+}
+
+
+#productos h1 {
+    text-align: center;
+}
+#productos ul {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+#productos li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 20px;
+    background-color: white;
+}
+li.odd {
+    border-radius: 20px;
+}
+li.even {
+    border-radius: 20px;
+    flex-direction: row-reverse !important;
+}
+.product-container {
+    width: 300px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: wheat;
+}
+#productos img {
+    width: 100%;
+    border-radius: 20px;
+}
+ul p {
+    font-size: 30px;
+    padding: 10px;
+}
+.product-description {
+    margin-right: 0auto;
+    padding-top: 90px;
+}
+
+/*End contect secction */
+
+/*contact section */
+footer {
+    position: absolute;
+    width: 99.99999%;
+    margin-top: 30px;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+footer img {
+    width: 60px;
+    height: 60px;
+}
