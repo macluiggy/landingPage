@@ -167,3 +167,8 @@ footer a {
 #whatsapp {
     padding: 10px;
 }
+@media screen and (max-width: 500px) {
+    footer {
+        background-color: rgb(77, 11, 11);
+    }
+}
